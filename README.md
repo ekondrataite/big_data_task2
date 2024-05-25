@@ -4,6 +4,8 @@ The goal of this task is to develop a Python code script and package it into a D
 
 The python project is to train a linear regression model to predict housing prices in California. The data used for this project is accessed from sklearn library.
 
+Docker image tag: **kondrataite/big_data_task2:final**
+
 ## Project idea:
 
 1. Prints information about the dataset.
