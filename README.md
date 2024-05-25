@@ -26,7 +26,7 @@ Required files: (they can be found in this repository)
 
 Main docker commands used:
 
-**To create docker image:**
+**To create docker image**
 
 - **Build an image:** docker build .
 - **Get the list of images:** docker image list
