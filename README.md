@@ -2,17 +2,18 @@
 
 The goal of this task is to develop a Python code script and package it into a Docker container.
 
-The python project is to train a linear regression model to predict housing prices in California. The data used for this project is accessed from sklearn library. The code:
+The python project is to train a linear regression model to predict housing prices in California. The data used for this project is accessed from sklearn library.
 
 ## Project idea:
 
-1. Does primary data analysis: 
+1. Prints information about the dataset.
+2. Does primary data analysis: 
    - Checks for NA's
    - Selects a subset of variables: MedInc, AveRooms, AveBedrms, Population, AveOccup.
    - Prints a correlation matrix for analysis.
-2. Splits the data to train and test subsets with the ratio of 80:20.
-3. Trains a Linear regression model on the train dataset.
-4. Evaluates the result model:
+3. Splits the data to train and test subsets with the ratio of 80:20.
+4. Trains a Linear regression model on the train dataset.
+5. Evaluates the result model:
    - Prints R-square score.
    - Prints MSE score.
 
