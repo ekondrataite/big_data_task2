@@ -28,7 +28,7 @@ Main docker commands used:
 
 **To create docker image:**
 
-- **Build an image:** docker build
+- **Build an image:** docker build .
 - **Get the list of images:** docker image list
 - **Run the docker:** docker run (image id)
 
